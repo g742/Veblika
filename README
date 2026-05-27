@@ -1,0 +1,25 @@
+=============================== FOR BACKEND ==============================
+
+cd backend
+npm install
+npm start
+
+.env 
+
+MONGO_URI=mongodb://localhost:27017/controlpanel
+
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+
+=============================== FOR FRONTEND =============================== 
+
+cd frontend
+npm install
+npm start or npm run dev
+
+=============================== START WORKER =====================================
+cd backend
+node worker.js
+
+=============================== REDIS AND MONGODB ON DOCKER CONTAINER ====================== 
+docker-conpose up -d
